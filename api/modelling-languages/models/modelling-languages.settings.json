@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modelling_languages",
+  "info": {
+    "name": "Modelling Languages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "released": {
+      "type": "date"
+    },
+    "page": {
+      "type": "richtext"
+    },
+    "page_authors": {
+      "plugin": "admin",
+      "collection": "user"
+    },
+    "paper": {
+      "type": "dynamiczone",
+      "components": [
+        "paper.paper-file",
+        "paper.paper-link"
+      ]
+    }
+  }
+}

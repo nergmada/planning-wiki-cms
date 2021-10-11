@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guides",
+  "info": {
+    "name": "Guides",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "page_authors": {
+      "plugin": "admin",
+      "collection": "user"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "tags": {
+      "collection": "tags"
+    }
+  }
+}

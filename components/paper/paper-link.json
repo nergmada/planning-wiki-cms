@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_paper_paper_links",
+  "info": {
+    "name": "Paper Link",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "paper_url": {
+      "type": "string"
+    }
+  }
+}

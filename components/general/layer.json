@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_general_layers",
+  "info": {
+    "name": "layer",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "action": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

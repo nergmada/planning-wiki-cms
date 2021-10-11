@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "planners",
+  "info": {
+    "name": "Planners",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "released": {
+      "type": "date"
+    },
+    "download_link": {
+      "type": "string"
+    },
+    "page": {
+      "type": "richtext"
+    },
+    "tags": {
+      "collection": "tags"
+    },
+    "page_authors": {
+      "plugin": "admin",
+      "collection": "user"
+    },
+    "paper": {
+      "type": "dynamiczone",
+      "components": [
+        "paper.paper-file",
+        "paper.paper-link"
+      ]
+    }
+  }
+}

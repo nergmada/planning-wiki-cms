@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/modelling-languages",
+      "handler": "modelling-languages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/modelling-languages/count",
+      "handler": "modelling-languages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/modelling-languages/:id",
+      "handler": "modelling-languages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/modelling-languages",
+      "handler": "modelling-languages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/modelling-languages/:id",
+      "handler": "modelling-languages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/modelling-languages/:id",
+      "handler": "modelling-languages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
