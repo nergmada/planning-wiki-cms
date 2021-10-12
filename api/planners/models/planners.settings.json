@@ -43,6 +43,12 @@
         "paper.paper-file",
         "paper.paper-link"
       ]
+    },
+    "inspired": {
+      "collection": "planners"
+    },
+    "spawned": {
+      "collection": "planners"
     }
   }
 }
